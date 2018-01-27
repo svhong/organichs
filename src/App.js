@@ -13,7 +13,6 @@ class App extends Component {
       <div className="App">
         <Header />
         <p>We are currently under construction...<br/>We will be with you shortly..</p>
-        <Homepage />
         <Footer />
       </div>
     );
