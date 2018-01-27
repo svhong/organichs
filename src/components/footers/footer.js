@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="container-fluid footer">
-        <p>&copy; ORGANIC HOMESCHOOLER INC., ALL RIGHTS RESERVED.</p>
+        <center><p>&copy; ORGANIC HOMESCHOOLER INC., ALL RIGHTS RESERVED.</p></center>
       </div>
     );
   }
