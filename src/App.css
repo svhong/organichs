@@ -1,3 +1,4 @@
+
 .dropdown-submenu {
     position: relative;
 }
@@ -11,12 +12,49 @@
     margin-top: 25px;
 }
 
+.titleTrick {
+    visibility:hidden;
+    position:absolute;
+}
+
 /*----------------CSS for NAV BAR---------------*/
 
 .navbar-light {
-    background-color: lavender;
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .navbar-light a {
     color:black;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none; 
+    border: 1px solid transparent;
+     border-radius: 4px;
+}  
+
+
+@media screen and (min-width: 768px){
+    .navbar {
+        border-radius: 0px;
+        }
+
+    ul.nav.navbar-nav {
+        left: 40%;
+        position: relative;
+        transform: translate(-50%);
+        }
+    .titleTrick{
+        visibility: visible;
+        position:relative;
+    }
 }
